@@ -1,0 +1,11 @@
+//week03-3.cpp SOIT106_BASE_011
+#include <stdio.h>
+int main()
+{
+	int a,b;
+	scanf("%d",&a);
+	scanf("%d",&b);
+	if (a<b)printf("-1\n");
+	if (a==b)printf("0\n");
+	if (a>b)printf("1\n");
+}
